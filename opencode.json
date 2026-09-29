@@ -1,0 +1,11 @@
+{
+    "$schema": "http://opencode.ai/config.json",
+    "model": "opencode/deepseek-v4-flash-free",
+  
+    "mcp": {
+      "playwright": {
+        "type": "local",
+        "command": ["npx", "playwright", "run-test-mcp-server"]
+      }
+    }
+  }

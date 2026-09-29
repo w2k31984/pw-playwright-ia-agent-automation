@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Allure
+# allure-results/ holds the raw JSON emitted by allure-playwright on every run.
+allure-results/
+# allure-report/ is the generated HTML report.
+allure-report/
+
+# Playwright
+playwright-report/
+test-results/
+blob-report/
+playwright/.cache/
+trace.zip
+*.trace
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
